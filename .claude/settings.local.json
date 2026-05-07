@@ -9,7 +9,10 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
       "Bash(mkdir -p \"c:\\\\Users\\\\Mohamed Gomaa\\\\Documents\\\\pioneer-renovation\\\\public\\\\video\" && cp \"c:\\\\Users\\\\Mohamed Gomaa\\\\Downloads\\\\10224041-uhd_4096_2160_25fps.mp4\" \"c:\\\\Users\\\\Mohamed Gomaa\\\\Documents\\\\pioneer-renovation\\\\public\\\\video\\\\hero.mp4\" && echo \"done\")",
       "Bash(npx tsc *)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code} | size: %{size_download} bytes\" http://localhost:3000/video/hero.mp4)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code} | size: %{size_download} bytes\" http://localhost:3000/video/hero.mp4)",
+      "mcp__claude_ai_Vercel__list_teams",
+      "mcp__claude_ai_Vercel__list_deployments",
+      "mcp__claude_ai_Vercel__get_deployment_build_logs"
     ],
     "additionalDirectories": [
       "c:\\Users\\Mohamed Gomaa\\Downloads"

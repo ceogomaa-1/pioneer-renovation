@@ -44,7 +44,9 @@ export default function Hero() {
           pointerEvents: "none",
         }}
       >
+        {/* Local file for dev, CDN fallback for production */}
         <source src="/video/hero2.mp4" type="video/mp4" />
+        <source src="https://cdn.coverr.co/videos/coverr-construction-workers-at-a-building-site-7881/1080p.mp4" type="video/mp4" />
       </video>
 
       {/* Gradient overlay — keeps text readable while letting video show */}
